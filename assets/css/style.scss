@@ -1,0 +1,240 @@
+$color-green : #24AB70;
+
+$color-black : #000000;
+$color-black1 :#222222;
+$color-white :#FFFFFF;
+$color-grey : #555555;
+
+* {
+    // placing Margin to left & right
+    margin: 0px 5px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    body {
+        font-family: 'Open Sans';
+        font-style: normal;
+    }
+}
+
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+
+}
+
+.header {
+    display: flex;
+    position: absolute;
+
+    left: 80px;
+    top: 40px;
+
+
+    &__text1 {
+
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+        color: $color-black;
+    }
+
+    &__nav {
+        margin: 0.4rem 0;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: row;
+        column-gap: 50px;
+        justify-content: center;
+        font-size: 16px;
+        color: $color-black1;
+        margin-left: 402px;
+
+    }
+
+    &__button {
+        width: 76px;
+        height: 40px;
+        background-color: $color-green;
+        color: $color-white;
+        border-radius: 35px;
+        margin-left: 500px;
+
+    }
+
+
+}
+
+@media screen and (max-width : 1200px) {
+    .container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .header {
+        display: flex;
+        position: absolute;
+        left: 80px;
+        top: 40px;
+
+
+        &__text1 {
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 32px;
+            color: $color-black;
+        }
+
+        &__nav {
+            margin: 0.4rem 0;
+        }
+
+        &__list {
+            display: flex;
+            flex-direction: row;
+            column-gap: 30px;
+            justify-content: center;
+            font-size: 16px;
+            color: $color-black1;
+            margin-left: 208px;
+
+        }
+
+        &__button {
+            width: 76px;
+            height: 40px;
+            background-color: $color-green;
+            color: $color-white;
+            border-radius: 35px;
+            margin-left: 208px;
+
+        }
+    }
+
+}
+
+.sec1 {
+
+
+    position: absolute;
+    background: rgba(36, 171, 112, 0.04);
+    border-radius: 50px 50px 0px 0px;
+
+    height: 656px;
+    left: 80px;
+    top: 120px;
+    display: flex;
+
+    &__col1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    &__h6 {
+        margin-left: 80px;
+        margin-top: 88px;
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 80px;
+        /* or 125% */
+    }
+
+
+
+    &__p1 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        color: $color-grey;
+        margin-top: 30px;
+        margin-left: 80px;
+        /* or 160% */
+    }
+
+    &__img1 {
+        width: 175px;
+        height: 56px;
+        margin-top: 50px;
+        margin-left: 90px;
+    }
+
+    &__col2 {
+        margin-left: 340px;
+    }
+
+}
+
+.sec2 {
+    position: absolute;
+    height: 656px;
+    left: 80px;
+    top: 896px;
+    right: 80px;
+    display: flex;
+
+    &__h6 {
+        position: absolute;
+        left: 0%;
+        right: 62.58%;
+        top: 0%;
+        bottom: 90.85%;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        color: $color-black;
+    }
+
+    &__p1 {
+        position: absolute;
+        left: 0%;
+        right: 68.05%;
+        top: 12.2%;
+        bottom: 79.27%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: $color-grey;
+    }
+
+    &__a1 {
+        position: absolute;
+        left: 93.52%;
+        right: 1.95%;
+        top: 14.33%;
+        bottom: 81.4%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: $color-green;
+        text-decoration: none;
+
+    }
+
+    &__col1 {
+        position: absolute;
+        height: 480px;
+        display: flex;
+        flex-direction: row;
+       
+        justify-content: space-between;
+
+        top : 176px;
+         &__cards {
+            display: flex;
+            &__img {
+             
+                height: 
+                320px;
+            }
+        }
+    }
+}
