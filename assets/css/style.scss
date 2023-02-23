@@ -4,6 +4,7 @@ $color-black : #000000;
 $color-black1 :#222222;
 $color-white :#FFFFFF;
 $color-grey : #555555;
+$color-bg : #FAFAFA;
 
 * {
     // placing Margin to left & right
@@ -180,6 +181,10 @@ $color-grey : #555555;
     top: 896px;
     right: 80px;
     display: flex;
+    margin-right: 80px;
+    margin-left: 80px;
+
+   
 
     &__h6 {
         position: absolute;
@@ -207,34 +212,153 @@ $color-grey : #555555;
 
     &__a1 {
         position: absolute;
-        left: 93.52%;
-        right: 1.95%;
-        top: 14.33%;
-        bottom: 81.4%;
+
         font-weight: 400;
         font-size: 16px;
         line-height: 28px;
         color: $color-green;
         text-decoration: none;
+        position: absolute;
+        left: 91.48%;
+        right: 0%;
+        top: 13.41%;
+        bottom: 80.49%;
+
+        background: rgba(36, 171, 112, 0.1);
+        border-radius: 280px;
 
     }
 
     &__col1 {
+
         position: absolute;
         height: 480px;
         display: flex;
-        flex-direction: row;
-       
-        justify-content: space-between;
+        top: 176px;
+        column-gap: 100px;
 
-        top : 176px;
-         &__cards {
+        &__cards {
             display: flex;
+            flex-direction: column;
+            background: $color-bg;
+            border-radius: 16px;
+
             &__img {
-             
-                height: 
-                320px;
+
+                height:
+                    320px;
             }
+
+
+            &__p1 {
+                margin-top: 24px;
+                margin-left: 16px;
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 18px;
+                color: $color-green;
+
+            }
+
+            &__h6 {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 30px;
+                margin-left: 16px;
+                margin-top: 8px;
+                ;
+                /* identical to box height, or 125% */
+
+
+                color: $color-black1;
+            }
+
+            &__div1 {
+                margin-top: 24px;
+                margin-left: 16px;
+                display: flex;
+                flex-direction: row;
+
+                &__p2 {
+
+
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 18px;
+
+                    color: $color-black1;
+                }
+
+
+                &__img1 {
+
+                    margin-left: 60px;
+                    width: 131px;
+                    height: 18px;
+                }
+
+            }
+
+
         }
     }
+}
+
+.sec3 {
+    position: absolute;
+    height: 410px;
+    left: 80px;
+    top: 1699px;
+    display: flex;
+    flex-direction: row;
+
+    &__div1 {
+        width: 411px;
+        height: 310px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 80px;
+
+
+        &__h1 {
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 50px;
+            color: $color-black;
+        }
+
+        &__p1 {
+            margin-top: 20px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: $color-grey;
+
+        }
+
+        &__btn1 {
+            padding: 16px 32px;
+            width: 164px;
+            height: 56px;
+            position: absolute;
+            left: 0%;
+            bottom: 24.39%;
+            margin-left: 80px;
+            background:$color-green;
+            border-radius: 35px;
+            color: $color-white;
+
+        }
+    }
+}
+
+
+@media screen and (max-width : 1200px) { 
+.container{
+    display: flex;
+}
 }

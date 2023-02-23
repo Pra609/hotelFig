@@ -138,6 +138,8 @@
   top: 896px;
   right: 80px;
   display: flex;
+  margin-right: 80px;
+  margin-left: 80px;
 }
 .sec2__h6 {
   position: absolute;
@@ -163,27 +165,118 @@
 }
 .sec2__a1 {
   position: absolute;
-  left: 93.52%;
-  right: 1.95%;
-  top: 14.33%;
-  bottom: 81.4%;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   color: #24AB70;
   text-decoration: none;
+  position: absolute;
+  left: 91.48%;
+  right: 0%;
+  top: 13.41%;
+  bottom: 80.49%;
+  background: rgba(36, 171, 112, 0.1);
+  border-radius: 280px;
 }
 .sec2__col1 {
   position: absolute;
   height: 480px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   top: 176px;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
 }
 .sec2__col1__cards {
   display: flex;
+  flex-direction: column;
+  background: #FAFAFA;
+  border-radius: 16px;
 }
 .sec2__col1__cards__img {
   height: 320px;
+}
+.sec2__col1__cards__p1 {
+  margin-top: 24px;
+  margin-left: 16px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #24AB70;
+}
+.sec2__col1__cards__h6 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  margin-left: 16px;
+  margin-top: 8px;
+  /* identical to box height, or 125% */
+  color: #222222;
+}
+.sec2__col1__cards__div1 {
+  margin-top: 24px;
+  margin-left: 16px;
+  display: flex;
+  flex-direction: row;
+}
+.sec2__col1__cards__div1__p2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #222222;
+}
+.sec2__col1__cards__div1__img1 {
+  margin-left: 60px;
+  width: 131px;
+  height: 18px;
+}
+
+.sec3 {
+  position: absolute;
+  height: 410px;
+  left: 80px;
+  top: 1699px;
+  display: flex;
+  flex-direction: row;
+}
+.sec3__div1 {
+  width: 411px;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+.sec3__div1__h1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  color: #000000;
+}
+.sec3__div1__p1 {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #555555;
+}
+.sec3__div1__btn1 {
+  padding: 16px 32px;
+  width: 164px;
+  height: 56px;
+  position: absolute;
+  left: 0%;
+  bottom: 24.39%;
+  margin-left: 80px;
+  background: #24AB70;
+  border-radius: 35px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    display: flex;
+  }
 }/*# sourceMappingURL=style.css.map */
