@@ -663,9 +663,236 @@ $color-bg : #FAFAFA;
         }
 
     }
+}
+
+.footer {
+    position: absolute;
+    width: 1062px;
+    height: 208px;
+    left: 189px;
+    top: 4346px;
+
+    &__h6 {
+        position: absolute;
+        width: 81px;
+        height: 32px;
+        left: 0px;
+        top: 6px;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+        text-transform: uppercase;
+        color: $color-black;
+    }
+
+    &__p1 {
+        position: absolute;
+        left: 0%;
+        right: 75.14%;
+        top: 30.77%;
+        bottom: 34.62%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $color-grey;
+    }
+
+    &__img1 {
+        position: absolute;
+        left: 0.28%;
+        right: 98.21%;
+        top: 80.77%;
+        bottom: 11.54%;
+    }
+
+    &__img2 {
+        position: absolute;
+        left: 4.61%;
+        right: 93.88%;
+        top: 80.77%;
+        bottom: 11.54%;
+    }
+
+    &__img3 {
+        position: absolute;
+        left: 8.95%;
+        right: 89.55%;
+        top: 80.77%;
+        bottom: 11.54%;
+    }
+
+    &__div1 {
+        position: absolute;
+        left: 40.49%;
+        right: 53.11%;
+        top: 3.85%;
+        bottom: 0%;
+
+        &__p1 {
+            position: absolute;
+            left: 40.49%;
+            right: 53.11%;
+            top: 3.85%;
+            bottom: 80.77%;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 32px;
+            color: $color-black1;
+
+        }
+
+        &__p2 {
+            position: absolute;
+            left: 40.49%;
+            right: 53.77%;
+            top: 30.77%;
+            bottom: 57.69%;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: $color-black1;
+        }
+
+        &__p3 {
+            position: absolute;
+            left: 40.49%;
+            right: 53.48%;
+            top: 50%;
+            bottom: 38.46%;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: $color-black1;
+
+
+        }
+
+        &__p4 {
+            position: absolute;
+            left: 40.49%;
+            right: 53.48%;
+            top: 69.23%;
+            bottom: 19.23%;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: $color-black1;
+        }
+
+        &__p5 {
+            position: absolute;
+            left: 40.49%;
+            right: 54.05%;
+            top: 88.46%;
+            bottom: 0%;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: $color-black1;
+        }
+    }
+
+    &__div2 {
+        position: absolute;
+        width: 101px;
+        height: 200px;
+        left: 664px;
+        top: 8px;
+        border-radius: nullpx;
+
+        display: flex;
+        flex-direction: column;
+
+        &__p1 {
+            margin-top: 8px;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 32px;
+            color: $color-black1;
+        }
+
+        &__p2 {
+
+            margin-top: 20px;
+
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+
+
+        }
+
+        &__p3 {
+            margin-top: 16px;
+            width: 101px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+
+        }
 
 
 
+    }
 
+    &__div3 {
+        position: absolute;
+        left: 87.57%;
+        right: 0%;
+        top: 3.85%;
+        bottom: 38.46%;
 
+        &__p1 {
+            position: absolute;
+            width: 132px;
+            left: 87.57%;
+            right: 0%;
+            top: 3.85%;
+            bottom: 80.77%;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 32px;
+            color: $color-black1;
+
+        }
+
+        &__p2 {
+            position: absolute;
+            left: 87.57%;
+            right: 6.97%;
+            top: 30.77%;
+            bottom: 57.69%;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: $color-black1;
+            height: 24px;
+            width: 58px;
+
+            top: 64px;
+            border-radius: nullpx;
+
+        }
+
+        &__p3 {
+            position: absolute;
+            left: 87.57%;
+            right: 3.67%;
+            top: 50%;
+            bottom: 38.46%;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            height: 24px;
+            width: 93px;
+            
+            top: 104px;
+            border-radius: nullpx;
+            
+            color: $color-black1;
+        }
+
+    }
 }
