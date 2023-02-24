@@ -184,7 +184,7 @@ $color-bg : #FAFAFA;
     margin-right: 80px;
     margin-left: 80px;
 
-   
+
 
     &__h6 {
         position: absolute;
@@ -348,17 +348,324 @@ $color-bg : #FAFAFA;
             left: 0%;
             bottom: 24.39%;
             margin-left: 80px;
-            background:$color-green;
+            background: $color-green;
             border-radius: 35px;
             color: $color-white;
 
         }
     }
+
+    &__div2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+
+        &__col1 {
+            display: flex;
+            flex-direction: row;
+            column-gap: 50px;
+
+
+            &__card {
+
+                background: $color-white;
+                border: 1px solid #E8E8E8;
+                border-radius: 8px;
+                width: 193px;
+                height: 193px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+
+
+
+
+                &__img {
+
+                    width: 40px;
+                    height: 40px;
+                    margin-left: 76px;
+
+
+                }
+
+                &__p {
+
+                    margin-top: 24px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: $color-black1;
+
+                }
+            }
+        }
+    }
 }
 
 
-@media screen and (max-width : 1200px) { 
-.container{
+
+@media screen and (max-width : 1200px) {
+    .container {
+        display: flex;
+    }
+}
+
+.sec4 {
+    position: absolute;
+
+    height: 520px;
+    left: 80px;
+    top: 2229px;
     display: flex;
+
+    &__img {
+        margin-left: 80px;
+    }
+
+    &__col1 {
+
+
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+        margin-left: 200px;
+
+
+
+        &__h6 {
+
+
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 50px;
+            color: $color-black;
+        }
+
+        &__p1 {
+
+            margin-top: 20px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: $color-grey;
+
+        }
+
+        &__p2 {
+            position: absolute;
+            left: 54.53%;
+            right: 6.64%;
+            top: 43.46%;
+            bottom: 35%;
+            margin-left: 140px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: $color-grey;
+        }
+
+        &__btn {
+
+            padding: 16px 32px;
+
+            color: $color-white;
+            position: absolute;
+            left: 54.53%;
+            right: 32.42%;
+            top: 74.62%;
+            bottom: 14.62%;
+            margin-left: 140px;
+            background: $color-green;
+            width: 167px;
+            height: 56px;
+            border-radius: 35px;
+        }
+
+    }
 }
+
+.sec5 {
+    position: absolute;
+
+    height: 400px;
+    left: 60px;
+    top: 2869px;
+    border-radius: 35px;
+    background-color: $color-bg;
+    display: flex;
+    background-color: $color-bg;
+
+    &__col1 {
+
+        width: 628px;
+        height: 140px;
+
+        margin: 130px;
+        margin-top: 68px;
+
+
+        &__img1 {
+            position: absolute;
+            left: 7.35%;
+            right: 90.65%;
+            top: 16.25%;
+            bottom: 78.03%;
+        }
+
+        &__p1 {
+            position: absolute;
+            left: 9.77%;
+            right: 42.65%;
+            top: 17%;
+            bottom: 48%;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            /* or 175% */
+
+
+            color: $color-grey;
+        }
+
+        &__img2 {
+            position: absolute;
+            left: 20.35%;
+            right: 38.65%;
+            top: 45.25%;
+            bottom: 50.03%;
+
+
+
+        }
+
+        &__h6 {
+            position: absolute;
+            left: 9.77%;
+            right: 73.86%;
+            top: 66.25%;
+            bottom: 26.75%;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 28px;
+            color: $color-black1;
+        }
+
+        &__p2 {
+            position: absolute;
+            left: 9.77%;
+            right: 82.65%;
+            top: 76.25%;
+            bottom: 16.75%;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: $color-grey;
+
+        }
+
+
+    }
+
+    &__col2 {
+
+        margin-left: 300px;
+
+
+
+
+        &__img {
+            position: absolute;
+            left: 100%;
+            right: -100%;
+            top: 50%;
+            bottom: -100%;
+
+
+        }
+    }
+
+
+
+}
+
+.sec6 {
+    position: absolute;
+    width: 1280px;
+    height: 677px;
+    left: 280px;
+    top: 3469px;
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+
+    &__col1 {
+        height: 199px;
+        margin-top: 435px;
+        margin-left: 40px;
+        width: 1194px;
+        background-color: $color-white;
+        border-radius: 16px;
+
+        &__h6 {
+            position: absolute;
+            left: 8.52%;
+
+            top: 70.75%;
+            bottom: 23.34%;
+
+
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 40px;
+            /* identical to box height, or 111% */
+
+
+            color: $color-black;
+        }
+
+        &__p1 {
+            position: absolute;
+            left: 8.52%;
+            right: 51.64%;
+            top: 79.03%;
+            bottom: 12.7%;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: $color-grey;
+        }
+
+        &__p2 {
+            position: absolute;
+            left: 59.3%;
+
+            top: 81.09%;
+            bottom: 14.77%;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 28px;
+            color: $color-grey;
+        }
+
+        &__btn {
+            position: absolute;
+            left: 81.8%;
+            right: 8.52%;
+            top: 79.03%;
+            bottom: 12.7%;
+            background: $color-green;
+            border-radius: 50px;
+            color: $color-white;
+        }
+
+    }
+
+
+
+
+
 }

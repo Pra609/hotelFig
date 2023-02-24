@@ -274,9 +274,236 @@
   border-radius: 35px;
   color: #FFFFFF;
 }
+.sec3__div2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.sec3__div2__col1 {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+.sec3__div2__col1__card {
+  background: #FFFFFF;
+  border: 1px solid #E8E8E8;
+  border-radius: 8px;
+  width: 193px;
+  height: 193px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.sec3__div2__col1__card__img {
+  width: 40px;
+  height: 40px;
+  margin-left: 76px;
+}
+.sec3__div2__col1__card__p {
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #222222;
+}
 
 @media screen and (max-width: 1200px) {
   .container {
     display: flex;
   }
+}
+.sec4 {
+  position: absolute;
+  height: 520px;
+  left: 80px;
+  top: 2229px;
+  display: flex;
+}
+.sec4__img {
+  margin-left: 80px;
+}
+.sec4__col1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  margin-left: 200px;
+}
+.sec4__col1__h6 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  color: #000000;
+}
+.sec4__col1__p1 {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #555555;
+}
+.sec4__col1__p2 {
+  position: absolute;
+  left: 54.53%;
+  right: 6.64%;
+  top: 43.46%;
+  bottom: 35%;
+  margin-left: 140px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #555555;
+}
+.sec4__col1__btn {
+  padding: 16px 32px;
+  color: #FFFFFF;
+  position: absolute;
+  left: 54.53%;
+  right: 32.42%;
+  top: 74.62%;
+  bottom: 14.62%;
+  margin-left: 140px;
+  background: #24AB70;
+  width: 167px;
+  height: 56px;
+  border-radius: 35px;
+}
+
+.sec5 {
+  position: absolute;
+  height: 400px;
+  left: 60px;
+  top: 2869px;
+  border-radius: 35px;
+  background-color: #FAFAFA;
+  display: flex;
+  background-color: #FAFAFA;
+}
+.sec5__col1 {
+  width: 628px;
+  height: 140px;
+  margin: 130px;
+  margin-top: 68px;
+}
+.sec5__col1__img1 {
+  position: absolute;
+  left: 7.35%;
+  right: 90.65%;
+  top: 16.25%;
+  bottom: 78.03%;
+}
+.sec5__col1__p1 {
+  position: absolute;
+  left: 9.77%;
+  right: 42.65%;
+  top: 17%;
+  bottom: 48%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  color: #555555;
+}
+.sec5__col1__img2 {
+  position: absolute;
+  left: 20.35%;
+  right: 38.65%;
+  top: 45.25%;
+  bottom: 50.03%;
+}
+.sec5__col1__h6 {
+  position: absolute;
+  left: 9.77%;
+  right: 73.86%;
+  top: 66.25%;
+  bottom: 26.75%;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #222222;
+}
+.sec5__col1__p2 {
+  position: absolute;
+  left: 9.77%;
+  right: 82.65%;
+  top: 76.25%;
+  bottom: 16.75%;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #555555;
+}
+.sec5__col2 {
+  margin-left: 300px;
+}
+.sec5__col2__img {
+  position: absolute;
+  left: 100%;
+  right: -100%;
+  top: 50%;
+  bottom: -100%;
+}
+
+.sec6 {
+  position: absolute;
+  width: 1280px;
+  height: 677px;
+  left: 280px;
+  top: 3469px;
+  display: flex;
+  justify-content: center;
+  border-radius: 16px;
+}
+.sec6__col1 {
+  height: 199px;
+  margin-top: 435px;
+  margin-left: 40px;
+  width: 1194px;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+}
+.sec6__col1__h6 {
+  position: absolute;
+  left: 8.52%;
+  top: 70.75%;
+  bottom: 23.34%;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  /* identical to box height, or 111% */
+  color: #000000;
+}
+.sec6__col1__p1 {
+  position: absolute;
+  left: 8.52%;
+  right: 51.64%;
+  top: 79.03%;
+  bottom: 12.7%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #555555;
+}
+.sec6__col1__p2 {
+  position: absolute;
+  left: 59.3%;
+  top: 81.09%;
+  bottom: 14.77%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #555555;
+}
+.sec6__col1__btn {
+  position: absolute;
+  left: 81.8%;
+  right: 8.52%;
+  top: 79.03%;
+  bottom: 12.7%;
+  background: #24AB70;
+  border-radius: 50px;
+  color: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */
